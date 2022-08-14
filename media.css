@@ -1,0 +1,31 @@
+div{
+    
+    background-color: rgb(223, 52, 13);
+   
+
+}
+h1{
+    background-color: rgb(58, 13, 223);
+}
+
+@media screen and (min-width:200px) and (max-width:500px) {
+    div{
+        background-color: brown;
+        font-style: italic;
+        font-size: small;
+        color:chartreuse;
+    }
+    h1{
+        
+    }
+}
+
+
+@media screen and (min-width:501px) and (max-width:700px){
+    div{   
+        font-style: bold;
+        font-size: small;
+        color:rgb(27, 228, 13);
+        background-color: black;
+}
+} 
